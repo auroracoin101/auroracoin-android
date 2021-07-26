@@ -1,7 +1,8 @@
 allprojects {
     apply plugin: 'java'
-    sourceCompatibility = 1.7
-    targetCompatibility = 1.7
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
 }
 
 configurations {
@@ -20,7 +21,8 @@ dependencies {
 
     compile 'com.google.protobuf:protobuf-java:2.5.0'
     compile 'org.slf4j:slf4j-jdk14:1.7.6'
-    compile 'org.json:json:20080701'
+    // compile 'org.json:json:20080701'
+    compile 'org.json:json:20180813'
 
     compile 'com.squareup.okhttp:okhttp:2.3.0'
 
