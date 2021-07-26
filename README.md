@@ -1,0 +1,4 @@
+AuroraCoin Wallet
+===============
+
+Description 

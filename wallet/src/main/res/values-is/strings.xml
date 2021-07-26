@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Auroracoin</string>
+    <string name="app_package" translatable="false">com.auroracoin.is</string>
+    <string name="coinomi_website" translatable="false">https://auroracoin.is</string>
+    <string name="almost_equal_to" translatable="false">≈</string>
+    <string name="action_scan_qr_code">Skanna</string>
+    <string name="action_share">Deila</string>
+    <string name="action_copy">Afrita</string>
+    <string name="action_edit_label">Breyta merkingu</string>
+    <string name="action_empty_wallet">Nota allt fé</string>
+    <string name="action_sweep_wallet">Yfirtaka pappírsveski</string>
+    <string name="action_settings">Stillingar</string>
+    <string name="action_support">Hafðu samband</string>
+    <string name="action_about">Um</string>
+    <string name="action_refresh">Uppfæra</string>
+    <string name="action_sign_verify_message">Undirrita/staðfesta skilaboð</string>
+    <string name="action_account_details">Um reikning</string>
+    <string name="action_exchange_history">Viðskiptasaga</string>
+    <string name="action_new_address">Nýtt reikningsnúmer</string>
+    <string name="action_swap_coins">Skipta á mynt</string>
+    <string name="action_delete">Eyða</string>
+    <string name="action_change_address_type">Breyta tegund reikningsnúmers</string>
+    <!-- Errors -->
+    <string name="error_generic">Villa átti sér stað við síðustu aðgerð</string>
+    <string name="error_could_not_read_wallet">Gat ekki lesið veski</string>
+    <string name="error_camera">Gat ekki notað myndavélina</string>
+    <!-- Generic items -->
+    <string name="button_ok">Í lagi</string>
+    <string name="button_next">Næst</string>
+    <string name="button_finish">Búin</string>
+    <string name="button_return">Til baka</string>
+    <string name="button_confirm">Staðfesta</string>
+    <string name="button_cancel">Hætta við</string>
+    <string name="button_default">Sjálfgefið</string>
+    <string name="button_dismiss">Hafna</string>
+    <string name="button_delete">Eyða</string>
+    <string name="button_add">Bæta við</string>
+    <string name="button_save">Vista</string>
+    <string name="button_remove">Fjarlægja</string>
+    <string name="button_edit">Breyta</string>
+    <string name="button_send">Senda</string>
+    <string name="button_sign">Undirrita</string>
+    <string name="button_verify">Staðfesta</string>
+    <string name="button_skip">Sleppa</string>
+    <string name="button_retry">Reyna aftur</string>
+    <string name="button_download">Niðurhala</string>
+    <string name="button_agree">Samþykkja</string>
+    <string name="button_disagree">Hafna</string>
+    <string name="button_add_coins">+ Mynt</string>
+    <string name="button_execute">Framkvæma</string>
+    <string name="yes">Já</string>
+    <string name="no">Nei</string>
+    <string name="scan_qr_code">Skanna QR kóða</string>
+    <string name="erase_address">Eyða reikningsnúmeri</string>
+    <string name="copied_to_clipboard">Afrita á klippispjald</string>
+    <string name="wallet_title_request">móttaka</string>
+    <string name="wallet_title_balance">upphæð</string>
+    <string name="wallet_title_send">senda</string>
+    <string name="wallet_locked_message">Veskið þitt er læst</string>
+    <string name="wallet_is_not_locked_message">Veskið þitt er ekki læst</string>
+    <string name="unlock_wallet_title">Aflæsa veski</string>
+    <!-- &#8230; is the ... character -->
+    <string name="unlocking_wallet_working">Aflæsa veskinu þínu&#8230;</string>
+    <string name="unlocking_wallet_error_title">Gat ekki aflæst veskinu þínu</string>
+    <string name="unlocking_wallet_error_detail">Ertu að nota rétt lykilorð? Vinsamlegast athugaðu hvort þú sért að nota rétt lykilorð. Þú getur einnig reynt að endurheimta veskið með því að nota lykilorða-frasann ef þetta gengur ekki.</string>
+    <string name="powered_by">Keyrt af</string>
+    <!-- Nav drawer -->
+    <string name="navigation_drawer_open">Opna vafra</string>
+    <string name="navigation_drawer_close">Loka vafra</string>
+    <string name="navigation_drawer_services">Þjónsutur</string>
+    <string name="navigation_drawer_wallet">Veski</string>
+    <!-- SendOutput widget -->
+    <string name="fee">Færslugjald</string>
+    <string name="send">Senda</string>
+    <string name="trade">Skipta</string>
+    <string name="receive">Móttaka</string>
+    <!-- Welcome fragment -->
+    <string name="welcome_text">Velkomin í Auroracoin veskið</string>
+    <string name="create_wallet">Búa til nýtt veski</string>
+    <string name="restore_wallet">Endurheimta veski</string>
+    <string name="test_wallet">Prófa veski</string>
+    <!-- Intro -->
+    <string name="override_wallet_warning_title">Yfirskrifa veski?</string>
+    <string name="override_new_wallet_warning_message">Ef þú býrð til nýtt veski mun núverandi veski tapast, nema þú eigir afrit af <i> lykilorða-frasanum</i>.</string>
+    <string name="override_restore_wallet_warning_message">Ef þú endurheimtir veski mun núverandi veski tapast, nema þú eigir afrit af <i> lykilorða-frasanum</i>.</string>
+    <string name="incompatible_device_warning_title">Tækið þitt pasar ekki við hugbúnaðinn</string>
+    <string name="incompatible_device_warning_message">Þetta tæki getur ekki framkvæmt sumar dulritunaraðgerðir vegna villu í hugbúnaið tækisins. \nÞað er hægt að leysa þetta með uppfærslu á hugbúnaði tækisins.\n\nHafðu samband við okkur ef þú hefur einhverjar spurningar: support@aurarad.is</string>
+    <!-- Recovery fragment -->
+    <string name="seed_info">Þetta er <i>lykilorða-frasinn þinn</i>, sem er notaður til að búa til reikningsnúmer fyrir veskið þitt. Vinsamlegast skrifaðu orðin niður á blað og geymdu á öruggum stað, eins og þú myndir varðveita peninga. Hver sem hefur aðgang að þessum orðum hefur aðgang að veskinu þínu og fjármunum.\nEf þú tapar lykilorða-frasanum getur þú ekki endurheimt veskið þitt síðar á öðru tæki.</string>
+    <string name="seed_title">Lykilorða-frasinn þinn</string>
+    <string name="seed_regenerate_title">Snertu til að búa til nýjan lykilorða-frasa</string>
+    <string name="backed_up_seed">Ég hef skrifað niður lykilorða-frasann</string>
+    <!-- Restore fragment -->
+    <string name="restore_info">Vinsamlegast sláðu inn lykilorða-frasann þinn:</string>
+    <string name="restore_seed_protected">Notaðu BIP39 lykilorða-frasa</string>
+    <string name="restore_skip_title">Sleppa staðfestingu</string>
+    <string name="restore_skip_info1">Vinsamlegast athugaðu að lykilorða-frasinn þinn passi við eftirfarandi:</string>
+    <string name="restore_skip_info2">Það er mælt með því að sleppa ekki staðfestingunni, þannig að þú getur áttað þig á ef þú hefur skráð niður rangan lykilorða-frasa.</string>
+    <string name="restore_error_checksum">Lykilorða-frasinn er rangur, athugaðu stafsetninguna.</string>
+    <string name="restore_error_words">Lykilorða-frasinn inniheldur óþekkjanleg orð.</string>
+    <string name="restore_error_mismatch">Lykilorða-frasinn stemmir ekki við endurheimtu-frasann.</string>
+    <string name="restore_error">Gat ekki staðfest endurheimtu-frasann. %1$s</string>
+    <string name="extra_entropy">Aukin óreiða</string>
+    <!-- Wallet activity -->
+    <string name="test_wallet_message">Þetta er prufu veski, þar sem þú getur sent og móttekið testnet Bitcoin, Litecoin og Dogecoin.\n\nEf þú villt nota veskið fyrir alvöru peninga, farðu þá í: <b>Stillingar &gt; Endurheimta veski &gt; Búa til nýtt veski</b>.</string>
+    <string name="wallet_update_title">Ný útgáfa ef tilbúin</string>
+    <string name="wallet_update_message">Ný útgáfa af Auroracoin veskinu er tilbúin, hún inniheldur bættan kóða.</string>
+    <string name="pay_with">Senda með</string>
+    <string name="exchange_and_pay_title">Skipta og senda</string>
+    <!-- PayToDialog-->
+    <!-- Ambiguous address means that the wallet cannot deduce the correct address coin type -->
+    <string name="ambiguous_address_title">Reikningsnúmer virkar ekki </string>
+    <string name="ambiguous_address_message">Veldu réttu myntina</string>
+    <!-- Balance fragment -->
+    <string name="wallet_transactions_coinbase">Námuvinnsla</string>
+    <string name="history_empty">Þú hefur ekki móttekið neina Auroracoin!\n\nÞú getur aflað þér Auroracoin með viðskiptum eða með því að kaupa Auroracoin fyrir krónur á https://isx.is/ kauphöllinni.</string>
+    <string name="sent_to">sent til</string>
+    <string name="received_with">móttekið með</string>
+    <string name="received_from">móttekið frá</string>
+    <string name="get_tx_info_error">Gat ekki móttekið upplýsingar um millifærslu</string>
+    <string name="disconnected_label">Tengist netþjóni</string>
+    <string name="no_wallet_pocket_selected">Enginn reikningur valinn</string>
+    <string name="get_tx_broadcast_error">Villa við útvörpun millifærslu</string>
+    <!-- Receive fragment -->
+    <string name="receive_address_label">Reikningsnúmerið þitt</string>
+    <string name="create_new_address">Búa til nýtt reikningsnúmer?</string>
+    <string name="create_new_address_name">Nafn (valkvætt)</string>
+    <string name="view_previous_addresses">Fyrri reikningsnúmer</string>
+    <string name="too_many_unused_addresses">Of mörg ónotuð reikningsnúmer, prófaðu að nota eitt af fyrri reikningsnúmerum áður en þú býrð til nýtt.</string>
+    <!-- Send Activity -->
+    <string name="send_coins_activity_title">Senda Auroracoin</string>
+    <!-- Send fragment -->
+    <string name="send_coins_fragment_receiving_address_label">Borga</string>
+    <string name="send_coins_fragment_receiving_address_tip">nafn eða reikningsnúmer</string>
+    <string name="send_coins_fragment_receiving_address_error">Ógilt reikningsnúmer!</string>
+    <string name="send_coins_fragment_amount_label">Upphæð til greiðslu</string>
+    <string name="send_coins_fragment_button_send">Senda</string>
+    <string name="send_coins_fragment_button_back">Til baka</string>
+    <string name="send_coins_failed_msg">Mistókst!</string>
+    <string name="send_coins_error_network">Gat ekki tengst neti</string>
+    <string name="send_coins_error_dust">Upphæðin sem á að senda er of lág og verður hafnað</string>
+    <!-- Here the %1$s is a detailed error message -->
+    <string name="send_coins_error">Gat ekki sent: %1$s</string>
+    <string name="pay_to_label">Greiða:</string>
+    <string name="amount_to_send_label">Upphæð</string>
+    <string name="scan_error">Það kom upp vandamál við skönnun:: %1$s</string>
+    <!-- Here the \"%1$s\" is the "coin name"-->
+    <string name="unsupported_coin">Myntin \"%1$s\" er ekki studd.</string>
+    <string name="address_error">Reikningsnúerið er ógilt.</string>
+    <string name="amount_error">Upphæðin er ekki gild</string>
+    <string name="amount_error_empty">Sláðu inn upphæð</string>
+    <string name="amount_error_negative">Get ekki sent neikvæða upphæð</string>
+    <!-- %1$s is the amount e.g. ... is at least 0.00001 BTC-->
+    <string name="amount_error_too_small">Lágmarksupphæð er %1$s</string>
+    <string name="amount_error_not_enough_money_plain">Ekki nægt fé</string>
+    <!-- %1$s is the wallet balance e.g. ... current balance is 3.1415 BTC-->
+    <string name="amount_error_not_enough_money">Ekki nægt fé, núverandi staða er %1$s</string>
+    <string name="amount_warn_fees_apply">Örlítið lægri upphæð verður send vegna þóknunar</string>
+    <!-- Set Password fragment -->
+    <string name="set_password_info">Veldu lykilorð til að vernda veskið þitt.</string>
+    <string name="set_bip39_passphrase">Sláðu inn BIP39 lykilorða-frasann</string>
+    <string name="set_password1">Sláðu inn lykilorð</string>
+    <string name="set_password2">Endurtaktu lykilorðið</string>
+    <!-- Here the \"%1$s\" is the "password"-->
+    <string name="password_too_common_error">Lykilorðið \"%1$s\" er of algengt til að teljast öryggt.</string>
+    <!-- The %1$d is a number of characters, usually 10 characters -->
+    <string name="password_too_short_error">Lykilorðið er of stutt, lágmark %1$d stafir.</string>
+    <string name="passwords_mismatch">Lykilorðið passar ekki</string>
+    <string name="password_error">Gat ekki haldið áfram, villa tengd lykilorði.</string>
+    <string name="password_skip_warn">Með því að velja ekkert lykilorð, er hægt að nota veskið þitt í heimildarleysi.</string>
+    <string name="password_wallet_recovery">Til að endurheimta veskið, vinsamlegas sláðu inn BIP39 lykilorða-frasann sem þú notaðir þegar þú bjóst til endurheimtu lykilorða-frasann.\nEf þú slærð inn annan lykilorða-frasa mun nýtt nýtt veski verða til.</string>
+    <!-- FinalizeWalletRestorationFragment -->
+    <string name="wallet_restoration">Vinsamlegast bíddu meðan verið er að endurheimta veskið þitt</string>
+    <string name="wallet_restoration_master_key">Bý til yfirlykil</string>
+    <!-- The %1$s is a coin name e.g. Creating key for Bitcoin -->
+    <string name="wallet_restoration_coin">Bý til lykil fyrir %1$s</string>
+    <!-- The %1$s is an error message -->
+    <string name="wallet_restoration_error">Gat ekki endurheimt veski.\n\n%1$s</string>
+    <!-- PasswordConfirmationFragment -->
+    <string name="enter_password">Sláðu inn lykilorðið þitt</string>
+    <!-- SignTransactionFragment -->
+    <!-- &#8230; is the ... character -->
+    <string name="contacting_exchange">Hef samand við kauhöll&#8230;</string>
+    <string name="preparing_transaction">Vinsamlegast bíddu meðan millifærslan er undirbúin og send.</string>
+    <string name="no_such_pocket_error">Villa átti sér stað við að opna veskið. Ef vandamálið leysist ekki, prófaðu að endurheimta veskið með því að nota lykilorða-frasann til að endurheimta veskið.</string>
+    <string name="password_failed">Lykilorðið er ekki gilt.</string>
+    <!-- &#8230; is the ... character -->
+    <string name="sending_msg">Sendi&#8230;</string>
+    <string name="sent_msg">Sent! Vinsamlegast bíddu eftir staðfestingu á millifærslunni.</string>
+    <string name="tx_already_broadcast">Búið er að senda peninginn</string>
+    <string name="trade_expired">Viðskipti útrunnin</string>
+    <!-- %1$s is the time remaining e.g. ... in the next 8 minutes 35 seconds-->
+    <string name="tx_confirm_timer_message">Vinsamlegast staðfestu þessa millifærslu á næstu %1$s</string>
+    <plurals name="tx_confirm_timer_minute">
+        <item quantity="one">%s mínútu</item>
+        <item quantity="other">%s mínnútum</item>
+    </plurals>
+    <plurals name="tx_confirm_timer_second">
+        <item quantity="one">%d sekúndu</item>
+        <item quantity="other">%d sekúndum</item>
+    </plurals>
+    <!-- About Activity -->
+    <string name="title_activity_about">Um Auroracoin</string>
+    <string name="app_name_long">Auroracoin</string>
+    <string name="about_licence">Opið hugbúnaðarverkefni\nhttps://github.com/Coinomi/coinomi-android</string>
+    <string name="about_credits_nubits">Innviðir fyrir servera var gefinn af NuBits - The World\'s First Stable Digital Currency\nhttps://nubits.com/</string>
+    <string name="about_credits_translations">Þýðing unnin af:</string>
+    <string name="about_credits_translations_credits" translatable="false">Tamara Castellano (Italian)\nJorge Nicolas Karmis (Spanish)\nGeorge Kimionis (Greek)\n@visvirial (Japanese)\nДенис Рейн (Russian, Ukrainian)\nHlynur Þór Björnsson (Icelandic)</string>
+    <string name="about_credits_bitcoinj">Notar Bitcoinj library\nhttp://bitcoinj.github.io/</string>
+    <string name="about_credits_electrum">Notar Electrum server software\nhttps://electrum.org/</string>
+    <string name="about_credits_schildbach">Áhrifavaldur Andreas Schildbach\nhttps://github.com/schildbach/bitcoin-wallet/</string>
+    <string name="about_credits_zxing">QR-code notkunarmöguleikar ZXing\nhttps://github.com/zxing/zxing</string>
+    <string name="about_credits_crypto_icons">Crypto-myndir eftir Chris Shepherd\nhttps://github.com/shphrd/crypto-icons</string>
+    <string name="about_credits_font_icons">Fontur-myndir eftir Daniel Bruce\nhttp://www.entypo.com</string>
+    <string name="about_credits_exchange_rates">Gengisskráning frá\nhttp://www.cryptocoincharts.info/\nhttps://bitcoinaverage.com/</string>
+    <string name="about_coinomi_copyright" translatable="false">\u00A9 2017 Auroracoin</string>
+    <string name="about_coinomi_copyright2" translatable="false">\u00A9 2016 Coinomi</string>
+    <!-- Add Coins -->
+    <string name="title_activity_add_coins">Bæta við mynt</string>
+    <!-- %1$s is the coin name e.g. ... create a Bitcoin account ... -->
+    <string name="password_add_coin">Þú ert í þann munda að búta til %1$s reikning í veskinu þínu.</string>
+    <!-- %1$s is the coin name e.g. Add Bitcoin? -->
+    <string name="adding_coin_confirmation_title">Bæta við %1$s?</string>
+    <!-- %1$s is the coin name e.g. ... a new Bitcoin account -->
+    <string name="adding_coin_working">Vinsamlegst bíddu meðan verið er að búa til nýjan %1$s reikning</string>
+    <!-- %1$s is the coin name and %2$s is and error message e.g. Error adding Bitcoin: some error message -->
+    <string name="add_coin_error">Villa við að bæta við %1$s: %2$s</string>
+    <!-- %1$s is the coin name e.g. Bitcoin already added -->
+    <string name="coin_already_added_title">%1$s nú þegar bætt við</string>
+    <string name="coin_already_added">Auka reikningar eru ekki studdir enn sem komið er</string>
+    <!-- Transaction amount visualizer -->
+    <!-- Internal transfer means that the wallet send money to itself.-->
+    <string name="internal_transfer">Innri millifærsla</string>
+    <!-- Transaction Details -->
+    <string name="title_activity_transaction_details">Upplýsingar um millifærslu</string>
+    <string name="sent">Sent</string>
+    <string name="received">Móttekið</string>
+    <!-- Status of a transaction, could be pending for confirmations or confirmed -->
+    <string name="status_label">Staða</string>
+    <string name="date_label">Dagseting</string>
+    <string name="transaction_id_label">Millifærslu auðkenni</string>
+    <string name="view_at_a_blockchain_explorer_link">Skoðið í blokkarkeðjavafra</string>
+    <!-- %d is the number of confirmations -->
+    <plurals name="status_building">
+        <item quantity="one">%d staðfesting</item>
+        <item quantity="other">%d staðfestingar</item>
+    </plurals>
+    <string name="status_pending">Bíð eftir að millifærsla sé staðfest</string>
+    <string name="status_unknown">Óþekkt staða á millifærslunni</string>
+    <!-- Exchange Rates -->
+    <string name="title_activity_exchange_rates">Gengisskráning</string>
+    <!-- %1$s is the symbol of a fiat currency e.g. Set EUR as a ... -->
+    <string name="local_currency">AUR</string>
+    <string name="set_local_currency">Setja %1$s sem gjaldmiðil</string>
+    <string name="exchange_rates_loading">Næ í gengi</string>
+    <string name="exchange_rates_load_error">Gat ekki náð í gengi</string>
+    <string name="exchange_rates_empty_search">Gat ekki fundið gengi</string>
+    <!-- Select Coins -->
+    <string name="select_coins">Veldu myntina sem þú villt nota í veskinu þínu.</string>
+    <!-- Previous Addresses -->
+    <string name="title_activity_previous_addresses">Eldri reikningsnúmer</string>
+    <string name="previous_addresses_used">Notuð reikningsnúmer</string>
+    <string name="previous_addresses_unused">Ónotuð reikningsnúmer</string>
+    <!-- Edit Address Book Entry -->
+    <string name="edit_address_book_entry_dialog_title_add">Bæta við reikningsnúmeri</string>
+    <string name="edit_address_book_entry_dialog_title_edit">Breyta reikningsnúmeri</string>
+    <string name="edit_address_book_entry_dialog_address_label">Reikningsnúmer</string>
+    <string name="edit_address_book_entry_dialog_label_label">Nafn</string>
+    <!-- Edit Account -->
+    <string name="edit_account_title">Breyta reikningi</string>
+    <string name="edit_account_description_label">Lýsing</string>
+    <!-- %1$s is the name of the account e.g. Remove account Bitcoin? -->
+    <string name="edit_account_delete_title">Fjarlægja reikning %1$s?</string>
+    <string name="edit_account_delete_description">Þetta fjarlægir reikninginn úr veskinu en það er hægt að bæta honum aftur við til að endurheimta peninginn.</string>
+    <!-- Settings -->
+    <string name="title_activity_settings">Stillingar</string>
+    <string name="pref_title_restore_wallet">Endurheimta veski</string>
+    <string name="pref_title_exchange_rates">Gengisskráning</string>
+    <string name="pref_title_manual_receiving_addresses">Slá inn reikningsnúmer til að móttaka</string>
+    <string name="pref_summary_manual_receiving_addresses">Ekki búa til ný reikningsnúmer sjálfkrafa fyrir hverja millifærslu</string>
+    <string-array name="listArray">
+        <item>ISK</item>
+        <item>USD</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- Show Seed -->
+    <string name="title_activity_show_seed">Sýna endurheimtu lykilorða-frasa</string>
+    <string name="seed_not_available_title">Ekki fanst endurheimtu-frasi</string>
+    <string name="seed_not_available">Endurheimtu-frasinn þinn er ekki vistaður á þessu tæki.\nPrófaðu að endurheimta veskið til að leysa þetta.</string>
+    <!-- &#8230; is the ... character -->
+    <string name="seed_working">Vinsamlegast bíðið&#8230;</string>
+    <string name="seed_password_protected">Þessi endurheimtu-frasi er varinn með BIP39 lykilorða-frasa</string>
+    <!-- Wallet locked -->
+    <string name="touch_to_decrypt_wallet">Snertu til að aflæsa</string>
+    <!-- Debugging -->
+    <string name="title_activity_debugging">Villuleit</string>
+    <string name="debugging_info">Þú getur notað ýmiss tól til að leita að fullum í veskinu þínu.</string>
+    <string name="debugging_test_wallet_password">Próf fyrir aflæsingu veskis</string>
+    <string name="debugging_test_wallet_password_results">Aflæsa veski: %1$s\n\nFingraför\nInnslegið: %2$s\nLykill: %3$s</string>
+    <!-- Overview -->
+    <string name="title_activity_overview">Yfirlit</string>
+    <!-- Exchange -->
+    <string name="title_activity_trade">Viðskipti</string>
+    <string name="trade_info">Veldu myntir sem þú vill eiga viðskipti með.\nMyntinni sem var skipt fyrir mun sjálfkrafa verða bætt við veskið þitt.</string>
+    <string name="trade_info_rates">Þetta gengi innifelur þóknun ShapeShift.io</string>
+    <string name="trade_from_coin_label">Viðskipti</string>
+    <string name="trade_to_coin_label">Móttaka</string>
+    <string name="trade_warn_no_account_found">Þú verður látin vita um að bæta %1$s við í veskið þitt</string>
+    <string name="trade_warn_no_connection_title">Ekkert samband</string>
+    <string name="trade_warn_no_connection_message">Þú þarft að vera í sambandi við internetið til að geta átt viðskipti.</string>
+    <string name="trade_error">Villa tengd viðskiptum</string>
+    <string name="trade_error_no_supported_source_accounts">Enginn reikningur fanst sem veskið styður</string>
+    <string name="trade_error_service_not_available">Þjónustan er tímabundið óaðgengileg, prófaðu aftur eftir örfárar mínútur</string>
+    <string name="trade_error_market_info">Þjónustan er tímabundið óaðgengileg.\nEngar upplýsingar um %1$s - %2$s parið</string>
+    <string name="trade_error_sign_tx_message">Villa átti sér stað við að votta og útvarpa millifærslunni.\n\nTæknilegar upplýsingar:\n\n<b>%1$s</b></string>
+    <string name="trade_error_max_limit">Upphæðin er umfram %1$s. Vinsamlegast notið smærri upphæð.</string>
+    <string name="trade_error_min_limit">Lágmarksupphæð er %1$s</string>
+    <!-- Exchange Status -->
+    <string name="title_activity_exchange_status">Staða viðskipta</string>
+    <string name="trade_status_message">Pöntunin þín verður kláruð innan skamms. Þú getur slökkt á skjánum án þess að það hafi áhrif á gengið.</string>
+    <string name="trade_status_complete_message">Viðskiptin gengu í gegn.</string>
+    <string name="trade_status_label">Staðan</string>
+    <!-- &#8230; is the ... character -->
+    <string name="trade_status_waiting_deposit">Bíð eftir innlögn&#8230;</string>
+    <string name="trade_status_received_deposit">Móttók innlögn sem nam %1$s</string>
+    <!-- &#8230; is the ... character -->
+    <string name="trade_status_waiting_trade">Bíð eftir viðskiptum&#8230;</string>
+    <string name="trade_status_complete_detail">Viðskiptum lokið, sent %1$s</string>
+    <string name="trade_status_complete">Viðskipum lokið</string>
+    <string name="trade_status_view_transaction">Skoða millifærslu</string>
+    <string name="trade_status_email_receipt">Kvittun í tölvupósti</string>
+    <!-- %1$s is an error message -->
+    <string name="trade_status_failed_detail">Viðskipti gengu ekki í gegn: %1$s</string>
+    <string name="trade_status_failed">Viðskipti gengu ekki í gegn</string>
+    <string name="trade_status_delete_message">Fjarlægja úr sögu?</string>
+    <string name="trade_status_tx_not_available">Millifærsla fannst ekki, prófaðu aftur eftir örfáar sekúndur</string>
+    <!-- Email receipt dialog -->
+    <string name="email_receipt_title">Kvittun í tölvupósti</string>
+    <string name="email_receipt_message">Fáðu sendan tölvupóst vegna þessara viðskipta</string>
+    <!-- Exchange History -->
+    <string name="title_activity_exchange_history">Viðskiptasaga</string>
+    <string name="exchange_history_empty">Engin viðskipti</string>
+    <!-- ShapeShift -->
+    <string name="about_shapeshift_title">Um ShapeShift.io</string>
+    <string name="about_shapeshift_message">ShapeShift.io er kauphöll fyrir netgjaldmiðla þar sem hægt er að skipta á Bitcoin og öðrum netgjaldmiðlum. Netsvæðið (bæði fyrir vef og API) er fljótvirk og skilvirk leið til að skipta á milli Bitcoin og annara netgjaldmiðla. Það þarf ekki að stofna reikning.</string>
+    <!-- Sign Message -->
+    <string name="title_activity_sign_verify_message">Skrifa undir/staðfesta skilaboð</string>
+    <string name="signing_info">Þú getur skrifað undir eða staðfest skilaboð með því að nota reikningsnúmer.</string>
+    <string name="signing_address_label">Undirritunar reikningsnúmer</string>
+    <string name="address_not_found_error">Reikningsnúmerið sem þú gafst upp fannst ekki á reikningnum.</string>
+    <string name="message_to_sign_label">Skilaboð</string>
+    <string name="signature_label">Undirskrift</string>
+    <string name="message_signed">Skilaboð undirrituð</string>
+    <string name="message_verified">Skilaboð staðfest</string>
+    <string name="message_verification_failed">Mistókst að staðfesta skilaboð</string>
+    <!-- Messages -->
+    <string name="tx_message_public">Opinber skilaboð</string>
+    <string name="tx_message_private">Persónuleg skilaboð</string>
+    <string name="tx_message_public_add">Bæta við opinberum skilaboðum</string>
+    <string name="tx_message_private_add">Bæta við persónulegum skilaboðum</string>
+    <string name="tx_message_public_remove">Fjarlægja opinber skilaboð</string>
+    <string name="tx_message_private_remove">Fjarlægja persónuleg skilaboð</string>
+    <string name="tx_message_from">Frá</string>
+    <string name="tx_message_subject">Efni</string>
+    <string name="tx_message">Skilaboð</string>
+    <!-- Account details -->
+    <string name="title_activity_account_details">Nánar um reikning</string>
+    <string name="account_description_label">Lýsing</string>
+    <string name="account_public_key_label">Opinber lykill</string>
+    <string name="account_extended_public_key_label">Útvíkkaður opinber lykill</string>
+    <string name="account_public_key_warning">Ef þú deilir opinbera lyklinum þínum með öðrum munu þeir geta séð inneignina þína og millifærslusögu.</string>
+    <string name="account_private_key_label">Persónulegur lykill</string>
+    <string name="account_extended_private_key_label">Útvíkkaður persónulegur lykill</string>
+    <string name="account_private_key_warning">Persónulegi lykilinn heimilar þér að millifæra peninga af reikningnum. Það er ekki nauðsynlegt að taka afrit af lyklinum, þar sem hann tengist <i>endurheimtu-frasanum þínum</i></string>
+    <!-- Support -->
+    <string name="support_message">Hafðu samband við þjónustuborð Auroracoin</string>
+    <!-- Sweep wallet -->
+    <!-- Sweep paper wallet means to redeem coins from a code usually printed on a paper -->
+    <string name="title_activity_sweep_wallet">Lestu inn af pappírs veski</string>
+    <string name="sweep_wallet_info">Þú ert í þann mund að fara að millifæra peninga af pappírsveski yfir á Auroracoin veskið þitt.\nEftir að millifærslu er lokið, forðastu að endurnota pappírsveski af öryggisástæðum.\n\nStudd form: WIF, BIP38, Mini private key.</string>
+    <string name="sweep_wallet_key_title">Persónulegur lykill</string>
+    <string name="sweep_wallet_key_password">Lykilorð fyrir persónulegan lykil</string>
+    <string name="sweep_wallet_key_hint">sláðu inn eða skannaðu persónulegan lykil</string>
+    <string name="sweep_wallet_bad_format">Þekki ekki formið á persónulega lyklinum.</string>
+    <string name="sweep_wallet_bad_coin_type">Persónulegi lyklinn stemmir ekki við reikningstegundina.</string>
+    <string name="sweep_wallet_bad_password">Vitlaust lykilorð.</string>
+    <string name="sweep_wallet_zero_coins">Persónulegi lykillinn inniheldur engn pening.</string>
+    <string name="sweep_wallet_key_wait">Vinsamlegst bíddu meðan verið er að yfirtaka pappírsveskið</string>
+    <!-- &#8230; is the ... character -->
+    <string name="sweep_wallet_key_decoding">Aflæsi persónulegum lykli&#8230;</string>
+    <!-- &#8230; is the ... character -->
+    <string name="sweep_wallet_key_loading">Sæki stöðu&#8230;</string>
+    <!-- &#8230; is the ... character -->
+    <string name="sweep_wallet_key_signing">Bý til millifærslu&#8230;</string>
+    <!-- Fees settings -->
+    <string name="title_activity_transaction_fees">Færslugjöld</string>
+    <!-- Example: Bitcoin transaction fees-->
+    <string name="tx_fees_title">%1$s færslugjöld</string>
+    <!-- Example: The fee value is per kilobyte.-->
+    <string name="tx_fees_description">Virði þóknunarinnar er %1$s.</string>
+    <string name="tx_fees_per_kilobyte">per kilobæt af millifærslugögnum</string>
+    <string name="tx_fees_per_byte">per bæt af millifærslugögnum</string>
+    <string name="tx_fees_per_transaction">per millifærslu</string>
+
+    <!-- Terms -->
+    <string name="terms_of_service_title">Skilmálar þjónustu</string>
+    <!-- TODO translate to other languages -->
+    <string name="terms_of_service" translatable="false">LAGALEGUR FYRIRVARI\n
+\n
+\n
+1. Áhætta tengd notkun Auroracoin veskis\n
+\n
+Auroracoin er ekki ábyrgt fyrir neinum töpum, skaða eða kröfum sem eiga rót sína að rekja til atburða tengdum eftirfarandi fimm köflum:\n
+\n
+(1) Mistök sem notandi hugbúnaðar eða þjónustu tengdan netgjaldmiðlum getur orðið fyrir, t.d. gleymd lykilorð, greiðslur sendar á röng reikningsnúmer eða mistaka sem leiða af sér glötunar veskis.\n
+\n
+(2) Vandræði með hugbúnað veskis og/eða einhvern hugbúnað eða þjónustu tengdan netgjaldmiðli, t.d. villa í wallet skrá, villa í samsetningu millifærslu, óöryggi í dulritun, hugbúnaður sem sýkir veskið og/eða einhvern annan hugbúnað tengdan netgjaldmiðlum.\n
+\n
+(3) Tæknilegar villur í búnaði notanda lausna og hugbúnaðar tengdur netgjaldmiðlum t.d. gagnatap vegna búnaðar.\n
+\n
+(4) Öryggisvandræði tengd hugbúnaði eða þjónustu netgjaldmiðla, t.d. óheimilaður aðgangur að veski eða reikningi notanda.\n
+\n
+(5) Aðgerðir eða aðgerðaleysi þriðja aðila og/eða atburða sem eiga sér stað hjá þriðja aðila, t.d. greiðslufall / gjaldþrot, upplýsingaöryggi, árásir á þjónusutaðila og falsanir framkvæmdar af þriðja aðila.\n
+\n
+\n
+2. Áhætta af viðskiptum og fjárfestingum\n
+\n
+Það er umtalsverð áhætta sem notandi getur orðið fyrir við notkun netgjaldmiðla. Öll viðskipti með gjaldmiðla fela í sér áhættu, þar sem efnahagslegur óstöðugleiki gæti haft áhrif á verð og dýpt markaða. Fjárfesting í netgjaldmiðlum telst til spákaupmennsku og eiga fjárfestar hættu á að snöggar verðbreytingar geta átt sér stað með tilfallandi verðfalli eða hækkunum.\n
+\n
+\n
+3. Áhætta vegna rafrænna viðskipta\n
+\n
+Áður en þú millifærir fjármuni með rafrænum hætti ættir þú að kynna þér viðeigandi viðskiptareglur og reglur kauphalla, sem bjóða upp á gjaldmiðlana ogm þú ætlar þér að eiga viðskipti með. Viðskipti á netinu fela í sér áhættu vegna svartíma og aðgengi sem og markaðsaðstæðum, uppitíma kerfa og annara þátta. Þú ættir að vera meðvitaður um þessar áhættur áður en þú átt viðskipti.\n
+\n
+\n
+4. Fylgja lögum og reglum um skatta\n
+\n
+Notendur veskisins eru sjálfir ábyrgir fyrir að greina hvort þeim ber að greiða skatta af notkun þeirra af netgjaldmiðlum. Höfundar hugbúnaðarins eru EKKI ábyrgir fyrir því að greina hvort það eigi að greiða skatta af millifærslu netgjaldmiðla eða ekki.\n
+\n
+\n
+5. Engar ábyrgðir\n
+\n
+Veskið er afhent notanda "eins og það er" án ábyrgðar af neinu tagi og/eða ábyrgðar á efni, gögnum, innihaldi og eða þjónustu sem veskið vinnur.\n
+\n
+\n
+6. Takmörkun ábyrgðar\n
+\n
+Undir engum tilvikum skulu höfundar veskisins vera ábyrgir fyrir neinum skaða notenda, þar með töldum skaða vegna notkunar, töpuðum hagnaði, töpuðum gögnum vegna notkunar þeirra á veskinu. Undir engum tilvikum eru höfundar ábyrgir vegna aðgerða, ákvörðunum, eða annari hegðum sem notandi tekur í tengslum við notkun sína á veskinu.\n
+\n
+\n
+7. Ágreiningsmál\n
+\n
+Notandi veskisins samþykkir að vísa frá öllum ágreiningi í tengslum við notkun sína á veskinu eða þessum skilmálum, nema vegna höfundaréttar, vörumerkja, vöruheita, vöruleyndarmála eða eignarréttar.\n
+\n
+\n
+8. Viðbætur\n
+\n
+Þessir skilmálar voru uppfærðir síðast 1. desember 2016.</string>
+
+</resources>

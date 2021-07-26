@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:title="@string/pref_title_exchange_rates">
+        <intent
+            android:targetClass="com.auroracoin.is.ui.ExchangeRatesActivity"
+            android:targetPackage="@string/app_package" />
+    </Preference>
+
+    <!--<Preference android:title="@string/title_activity_transaction_fees">-->
+    <!--<intent-->
+    <!--android:targetClass="com.auroracoin.is.ui.FeesSettingsActivity"-->
+    <!--android:targetPackage="@string/app_package" />-->
+    <!--</Preference>-->
+
+    <Preference android:title="@string/title_activity_show_seed">
+        <intent
+            android:targetClass="com.auroracoin.is.ui.ShowSeedActivity"
+            android:targetPackage="@string/app_package" />
+    </Preference>
+
+    <Preference android:title="@string/pref_title_restore_wallet">
+        <intent
+            android:targetClass="com.auroracoin.is.ui.IntroActivity"
+            android:targetPackage="@string/app_package" />
+    </Preference>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="manual_receiving_addresses"
+        android:summary="@string/pref_summary_manual_receiving_addresses"
+        android:title="@string/pref_title_manual_receiving_addresses" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues"
+        android:key="currency"
+        android:title="Currency" />
+
+</PreferenceScreen>
